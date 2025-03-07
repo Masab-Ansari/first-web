@@ -1,0 +1,36 @@
+.btn{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 80px;
+    font-size: x-large;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.btn:active {
+    transform: translateY(3px); /* Button ko neeche le aayega */
+    box-shadow: 0 2px 0 #1e7e34; /* Neeche wali shadow choti kar di */
+  }
+.main{
+    /* background-color: gray; */
+    display: flex;
+}
+.main .btn{
+  margin: auto;
+}
+body{
+    background-color: black;
+}
+.heading{
+    display: flex;
+}
+.heading h1{
+    color: white;
+    margin: auto;
+    margin-top: 15%;
+}
+
+
+
